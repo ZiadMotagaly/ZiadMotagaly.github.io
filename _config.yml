@@ -1,5 +1,23 @@
-title: My Projects
-description: This is my GitHub Pages site.
-theme: dinky
-baseurl: ""
-url: "https://ziadmotagaly.github.io/"
+title: My Portfolio
+description: Welcome to my GitHub Pages site.
+theme: minima
+baseurl: "" # Leave blank unless the site is under a subpath
+url:  "https://ziadmotagaly.github.io/"
+
+# Navigation for themes supporting menus
+navbar:
+  - title: Home
+    url: /
+  - title: About
+    url: /about.html
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude unnecessary files from the site build
+exclude:
+  - README.md
+  - LICENSE
+
