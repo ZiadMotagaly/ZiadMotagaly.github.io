@@ -7,7 +7,7 @@ sass:
     - _sass
     - assets/css
     
-theme: minima
+theme: jekyll-theme-chirpy
 baseurl: "" # Leave blank unless the site is under a subpath
 url:  "https://ziadmotagaly.github.io/"
 
