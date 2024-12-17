@@ -1,13 +1,8 @@
 title: My Portfolio
 description: Welcome to my GitHub Pages site.
 
-sass:
-  style: compressed
-  load_paths:
-    - _sass
-    - assets/css
     
-theme: jekyll-theme-chirpy
+theme: jekyll-theme-minima
 baseurl: "" # Leave blank unless the site is under a subpath
 url:  "https://ziadmotagaly.github.io/"
 
@@ -23,7 +18,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-remote-theme
 
 markdown: kramdown
 highlighter: rouge
