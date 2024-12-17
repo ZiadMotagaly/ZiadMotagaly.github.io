@@ -1,9 +1,8 @@
 ---
 ---
 
-
-@import "minima/skins/classic"; // Optional: Import a skin (e.g., classic, dark)
-@import "minima";              // Import Minima base styles
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+@import "minima/initialize";
 
 /* Your custom overrides below */
 body {
@@ -12,4 +11,14 @@ body {
 
 h1, h2, h3 {
     color: #004080; /* Custom heading color */
+}
+
+a {
+    color: #0066cc; /* Change link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004080;
 }
