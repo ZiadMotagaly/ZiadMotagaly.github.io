@@ -1,6 +1,6 @@
 title: My Portfolio
 description: Welcome to my GitHub Pages site.
-theme: modernist
+theme: minima
 baseurl: "" # Leave blank unless the site is under a subpath
 url:  "https://ziadmotagaly.github.io/"
 
