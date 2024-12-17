@@ -1,9 +1,9 @@
 ---
 ---
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+
+@import "minima/skins/classic"; // Optional: Import a skin (e.g., classic, dark)
+@import "minima";              // Import Minima base styles
 
 /* Your custom overrides below */
 body {
