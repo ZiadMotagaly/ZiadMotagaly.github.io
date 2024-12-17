@@ -21,6 +21,7 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
+github_username: https://github.com/ZiadMotagaly
 
 # Exclude unnecessary files from the site build
 exclude:
